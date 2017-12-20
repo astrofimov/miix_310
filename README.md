@@ -1,2 +1,5 @@
 # miix_310
-Fix for orientation of the display for Lenovo MIIX 310 running Ubuntu Bionic Beaver and kernel 4.15+
+A set of fixes for Lenovo MIIX 310 Tablet/Laptop to be able to run current
+build of Ubunutu Beta (Bionic Beaver for the moment):
+1. Fix for orientation of the display (iio-sensor-proxy udev config)
+2. Fix for proper order of kernel modules load (pwm_lpss before i915)
